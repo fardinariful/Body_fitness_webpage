@@ -109,9 +109,10 @@ nav > ul {
     display: flex;
     justify-content: space-between;
     border: 1px solid #E6533C;
-    padding: 20px 20px;
+    padding: 20px 40px;
     background-color:  #222;
-    
+    margin-top: 100px;
+    gap: 165px;
 
     
 }
@@ -119,11 +120,29 @@ nav > ul {
 
 .second_banner img{
     border-radius: 18px;
-    object-fit: contain;
-    aspect-ratio: 2/1;
-    width: 100%;
+    max-width: 100%;
+    
 
     
+}
+
+.banner_text{
+    color: #FFF;
+
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+
+}
+
+.second_banner p{
+    color: rgba(255, 255, 255, 0.50);
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+
+letter-spacing: 0.3px;
 }
 
 .btn4{
