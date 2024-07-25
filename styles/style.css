@@ -9,6 +9,10 @@ header{
     padding: 60px 190px;
 }
 
+main{
+    padding: 76px 190px;
+}
+
 nav{
     
     display: flex;
@@ -81,5 +85,16 @@ nav > ul {
     justify-content: space-between;
     gap: 90px;
 }
+.image{
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.img{
+    border-radius: 50%;
+    
+}
 
+.image1{
+    
+}
