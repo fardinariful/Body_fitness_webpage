@@ -85,6 +85,11 @@ nav > ul {
     justify-content: space-between;
     gap: 90px;
 }
+
+.main_title{
+    text-align: center;
+    margin-bottom: 60px;
+}
 .image{
     display: flex;
     justify-content: space-evenly;
@@ -99,3 +104,33 @@ nav > ul {
 
     text-align: center;
 }
+
+.second_banner{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #E6533C;
+    padding: 20px 20px;
+    background-color:  #222;
+    
+
+    
+}
+
+
+.second_banner img{
+    border-radius: 18px;
+    object-fit: contain;
+    aspect-ratio: 2/1;
+    width: 100%;
+
+    
+}
+
+.btn4{
+    padding: 16px 40px;
+    border-radius: 42px;
+    background: #E6533C;
+    border: none;
+    color: #FFF;
+}
+
