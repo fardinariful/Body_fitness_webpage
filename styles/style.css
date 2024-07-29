@@ -35,6 +35,7 @@ nav > ul {
     list-style: none;
     gap: 10px;
     align-items: center;
+    color: #FFF;
 }
 
 .btn1{
@@ -226,10 +227,6 @@ table{
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     background: rgba(255, 255, 255, 0.10);
-
-    
-
-
 }
 .team_image img{
     max-width:100%;
