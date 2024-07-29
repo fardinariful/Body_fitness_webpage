@@ -227,6 +227,7 @@ table{
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     background: rgba(255, 255, 255, 0.10);
+    padding: 20px;
 }
 .team_image img{
     max-width:100%;
@@ -245,8 +246,6 @@ footer{
     color: #FFF;
     background: rgba(255, 255, 255, 0.10);
 
-    
-
 }
 .footer_container{
     padding: 76px 190px;
@@ -258,4 +257,8 @@ footer{
     font-size: 36px;
     font-style: italic;
     font-weight: 800;
+}
+.footer_list > ul > li{
+    list-style: none;
+    
 }
