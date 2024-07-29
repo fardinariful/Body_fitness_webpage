@@ -185,8 +185,27 @@ table{
 .input_field{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    gap: 12px;
 }
-
+.BMI_CALCULATOR{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.Calculator_title > .input_field  > input{
+    padding: 12px 20px;
+    
+    border-radius: 10px;
+    
+}
+.btn5{
+    color: white;
+    margin-top: 34px;
+    padding: 16px 40px;
+    border-radius: 42px;
+    background: #E6533C;
+    border: none;
+}
 .Team_class{
     text-align: center;
 }
