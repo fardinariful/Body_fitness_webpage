@@ -20,6 +20,42 @@ nav{
     display: flex;
     justify-content: space-between;
    
+   
+}
+.video_number{
+    display: flex;
+    align-items: center;
+    background: rgba(48, 48, 48, 0.54);
+    width: 190px;
+    height: 50px;
+    padding: 20px 10px;
+    border-radius: 20px;
+    position: relative;
+    top: 600px;
+    right: 120px;
+    gap: 20px;
+    color: #FFF;
+}
+.video_number2{
+    display: flex;
+    align-items: center;
+    background: rgba(48, 48, 48, 0.54);
+    width: 190px;
+    height: 40px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    position: relative;
+    bottom: -260px;
+    left: 200px;
+    gap: 20px;
+    color: #FFF;
+
+}
+.circle{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color:#E6533C;
 }
 
 nav > h3{
@@ -33,9 +69,12 @@ nav > ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    gap: 10px;
+    gap: 47px;
     align-items: center;
     color: #FFF;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 0.5px 10px;
+    border-radius: 40px;
 }
 
 .btn1{
@@ -116,11 +155,11 @@ nav > ul {
 .second_banner{
     display: flex;
     justify-content: space-between;
-    border: 1px solid #E6533C;
     padding: 20px 40px;
     background-color:  #222;
     margin-top: 100px;
     gap: 165px;
+    border-radius: 18px;
 
     
 }
@@ -135,7 +174,6 @@ nav > ul {
 
 .banner_text{
     color: #FFF;
-
 font-size: 48px;
 font-style: normal;
 font-weight: 900;
@@ -158,8 +196,14 @@ letter-spacing: 0.3px;
     border: none;
     color: #FFF;
 }
-
+.training_title{
+    margin-top: 100px;
+}
+.training_title p{
+    color: rgba(255, 255, 255, 0.5);
+}
 .Training_exercises {
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: none;
@@ -195,10 +239,20 @@ table{
     grid-template-columns: repeat(2,1fr);
     gap: 12px;
 }
+.BMI_title{
+    margin-top: 88px;
+    color: #FFF;
+    margin-left: 170px;
+}
+.BMI_title p{
+    color: rgba(255, 255, 255, 0.5);
+}
 .BMI_CALCULATOR{
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
 }
 .Calculator_title > .input_field  > input{
     padding: 12px 20px;
