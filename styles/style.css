@@ -8,11 +8,11 @@
     background-color: black;
 } 
 header{
-    padding: 60px 190px;
+    padding: 3.75rem 11.875rem;
 }
 
 main{
-    padding: 76px 190px;
+    padding: 4.75rem 11.875rem;
 }
 
 nav{
@@ -24,7 +24,7 @@ nav{
 
 nav > h3{
     color: #E6533C;
-    font-size: 36px;
+    font-size: 2.75rem;
     font-style: italic;
     font-weight: 800;
 
@@ -40,7 +40,7 @@ nav > ul {
 
 .btn1{
     padding: 8px 20px;
-    border-radius: 46px;
+    border-radius: 3rem;
     background: #E6533C;
     border: none;
     color: #FFF;
@@ -129,6 +129,7 @@ nav > ul {
 .second_banner img{
     border-radius: 18px;
     max-width: 100%;
+    height: 100%;
     
 }
 
@@ -143,10 +144,9 @@ font-weight: 900;
 
 .second_banner p{
     color: rgba(255, 255, 255, 0.50);
-
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 
 letter-spacing: 0.3px;
 }
@@ -160,10 +160,6 @@ letter-spacing: 0.3px;
 }
 
 .Training_exercises {
-    /* max-width: 50%;
-    display: grid;
-    grid-template-rows: repeat(3,3fr);
-    gap: 24px;*/
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: none;
@@ -171,8 +167,8 @@ letter-spacing: 0.3px;
 
 .Training_exercises img{
     max-width:100%;
-    height: auto;
-    display: block;
+    height: 100%;
+    
 }
 
 .grid_item1{
@@ -229,18 +225,12 @@ table{
     background: rgba(255, 255, 255, 0.10);
     padding: 20px;
 }
-.team_image img{
-    max-width:100%;
-    height: auto;
-    display: block;
-}
-.team1{
-    max-width:100%;
-    height: auto;
-    display: block;
-    border-radius: 10px;
-    
-}
+ .team_image img{
+    max-width:100%;  
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;   
+}  
 
 footer{
     color: #FFF;
