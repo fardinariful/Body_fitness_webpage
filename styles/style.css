@@ -287,7 +287,7 @@ table{
     
 }
 .image_container{
-    background: rgba(255, 255, 255, 0.10);
+    
     padding: 4.75rem 11.70rem;
     
 
@@ -303,12 +303,17 @@ table{
 footer{
     color: #FFF;
     background: rgba(255, 255, 255, 0.10);
-
 }
 .footer_container{
     padding: 76px 190px;
     display: flex;
     justify-content: space-between;
+}
+
+.footer_container p{
+    color: rgba(255, 255, 255, 0.50);
+
+
 }
 .footer_Title{
     color: #E6533C;
@@ -316,7 +321,32 @@ footer{
     font-style: italic;
     font-weight: 800;
 }
-.footer_list > ul > li{
-    list-style: none;
+
+.footer_title1{
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+.footer_container  li {
+    list-style-type: none;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.50);
     
+}
+
+.footer_container p{
+    color: #FFF;
+}
+
+.line{
+    margin-right: 190px;
+    margin-left: 190px;
+    border-top: 1px dashed rgba(255, 255, 255, 0.5); 
+    display: flex;
+    justify-content: center;
+    padding:  35px;
+    color: rgba(255, 255, 255, 0.50);
+
+
 }
